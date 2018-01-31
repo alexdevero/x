@@ -33,7 +33,7 @@ yarn
 
 ```bash
 # run application in development mode
-yarn dev
+yarn start
 
 # compile source code and create webpack output
 yarn compile
