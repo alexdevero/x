@@ -47,4 +47,4 @@ curl -fsSL https://github.com/electron-userland/electron-webpack-quick-start/arc
 git clone https://github.com/electron-userland/electron-webpack-quick-start.git
 cd electron-webpack-quick-start
 rm -rf .git
--->>
+-->
