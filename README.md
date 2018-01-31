@@ -1,3 +1,26 @@
+# install dependencies
+yarn
+```
+
+### Development Scripts
+
+```bash
+# run application in development mode
+yarn start
+
+# compile source code and create webpack output
+yarn compile
+
+# `yarn compile` & create build with electron-builder
+yarn dist
+
+# `yarn compile` & create unpacked build with electron-builder
+yarn dist:dir
+```
+
+<!--
+# Based on electron-webpack-quick-start
+
 # electron-webpack-quick-start
 > A bare minimum project structure to get started developing with [`electron-webpack`](https://github.com/electron-userland/electron-webpack).
 
@@ -24,23 +47,4 @@ curl -fsSL https://github.com/electron-userland/electron-webpack-quick-start/arc
 git clone https://github.com/electron-userland/electron-webpack-quick-start.git
 cd electron-webpack-quick-start
 rm -rf .git
-
-# install dependencies
-yarn
-```
-
-### Development Scripts
-
-```bash
-# run application in development mode
-yarn start
-
-# compile source code and create webpack output
-yarn compile
-
-# `yarn compile` & create build with electron-builder
-yarn dist
-
-# `yarn compile` & create unpacked build with electron-builder
-yarn dist:dir
-```
+-->>
